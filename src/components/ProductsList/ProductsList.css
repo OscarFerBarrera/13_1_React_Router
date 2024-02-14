@@ -1,0 +1,28 @@
+.Productos{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.Card__product{
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.Card__img{
+  width: 250px;
+  height: 250px;
+}
+
+.Card__link{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}

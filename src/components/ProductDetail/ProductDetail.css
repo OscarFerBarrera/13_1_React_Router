@@ -1,0 +1,29 @@
+.Producto{
+  display:flex;
+  justify-content: center;
+}
+
+.Card__producto{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Card__img{
+  width: 70%;
+  height: 40%px;
+}
+
+.Card__link{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+.Card__description{
+  font-weight: 500;
+  text-align: center;
+}

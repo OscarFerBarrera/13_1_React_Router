@@ -1,0 +1,26 @@
+.navigation {
+  text-align: center;
+}
+
+.navigation a,
+.navigation__link {
+  background: #fff;
+  font-size: 14px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation__link {
+  border: 1px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px;
+}
+
+.navigation a.active {
+  text-decoration: underline;
+  color: #2f2fd9;
+}
